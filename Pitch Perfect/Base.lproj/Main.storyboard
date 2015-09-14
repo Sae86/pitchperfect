@@ -144,8 +144,8 @@
                                 <state key="normal" image="Image-1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="168" y="510" width="64" height="63"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="168" y="517" width="64" height="63"/>
                                 </variation>
                                 <connections>
                                     <action selector="stopAudio:" destination="yzc-ub-w68" eventType="touchUpInside" id="7N0-Ue-Vhi"/>
@@ -153,11 +153,19 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="SR9-hA-VMb" secondAttribute="centerY" constant="-248.5" id="QS0-Z0-llh"/>
+                            <constraint firstAttribute="centerX" secondItem="SR9-hA-VMb" secondAttribute="centerX" id="dOh-n1-XfH"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="NwF-ZD-wes"/>
                                 <exclude reference="XeZ-OA-gpY"/>
                                 <exclude reference="SR9-hA-VMb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="QS0-Z0-llh"/>
+                                <exclude reference="dOh-n1-XfH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -165,6 +173,10 @@
                                 <include reference="NwF-ZD-wes"/>
                                 <include reference="XeZ-OA-gpY"/>
                                 <include reference="SR9-hA-VMb"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="QS0-Z0-llh"/>
+                                <include reference="dOh-n1-XfH"/>
                             </mask>
                         </variation>
                     </view>
