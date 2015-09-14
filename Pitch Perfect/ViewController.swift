@@ -23,10 +23,17 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var recordLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
  
+    override func viewWillAppear(animated: Bool) {
+        stopButton.hidden = true
+        recordButton.enabled = true
+    }
     
     @IBAction func recordStart(sender: UIButton) {
         recordLabel.hidden = false
+        recordButton.enabled = false
+        stopButton.hidden = false
         // TODO: record user's voice
         println("yay!!")
     }

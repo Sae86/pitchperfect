@@ -40,9 +40,8 @@
                                 <state key="normal" title="Tap to record" image="Image">
                                     <color key="titleColor" red="0.10196078431372549" green="0.2196078431372549" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
+                                <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                    <rect key="frame" x="145" y="227" width="110" height="145"/>
                                 </variation>
                                 <connections>
                                     <action selector="recordStart:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gTg-MJ-CeA"/>
