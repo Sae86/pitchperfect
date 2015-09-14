@@ -103,17 +103,39 @@
             </objects>
             <point key="canvasLocation" x="1105.5" y="-376"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="7zB-3p-7H0">
             <objects>
-                <viewController id="yzc-ub-w68" sceneMemberID="viewController">
+                <viewController id="yzc-ub-w68" customClass="PlaySoundsViewController" customModule="Pitch_Perfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q64-ar-mOh"/>
                         <viewControllerLayoutGuide type="bottom" id="QyG-kv-FXN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NSC-2I-wZw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwF-ZD-wes">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Image-2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="85" y="141" width="67" height="65"/>
+                                </variation>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NwF-ZD-wes"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="NwF-ZD-wes"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wsf-NC-GY6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,5 +164,6 @@
     <resources>
         <image name="Image" width="100" height="100"/>
         <image name="Image-1" width="100" height="100"/>
+        <image name="Image-2" width="200" height="200"/>
     </resources>
 </document>

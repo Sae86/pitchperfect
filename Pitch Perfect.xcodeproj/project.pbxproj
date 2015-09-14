@@ -81,7 +81,6 @@
 		02452CCA1B8148090045EB5D /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
-				021EF56D1BA67E5F00B6E643 /* movie_quote.mp3 */,
 				02452CCD1B8148090045EB5D /* AppDelegate.swift */,
 				02452CCF1B8148090045EB5D /* ViewController.swift */,
 				021EF5711BA67EED00B6E643 /* PlaySoundsViewController.swift */,
@@ -96,6 +95,7 @@
 		02452CCB1B8148090045EB5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				021EF56D1BA67E5F00B6E643 /* movie_quote.mp3 */,
 				02452CCC1B8148090045EB5D /* Info.plist */,
 			);
 			name = "Supporting Files";
