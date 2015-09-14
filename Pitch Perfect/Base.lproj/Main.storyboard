@@ -94,6 +94,7 @@
                     <connections>
                         <outlet property="recordButton" destination="sWQ-P5-4Bf" id="Yey-cf-LZl"/>
                         <outlet property="recordLabel" destination="c2T-vx-doL" id="6fA-NZ-IOR"/>
+                        <outlet property="stopButton" destination="Rh1-v5-lvA" id="QBy-CZ-jvU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
