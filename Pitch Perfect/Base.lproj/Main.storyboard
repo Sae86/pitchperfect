@@ -123,6 +123,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="85" y="141" width="67" height="65"/>
                                 </variation>
+                                <connections>
+                                    <action selector="playSlowAudio:" destination="yzc-ub-w68" eventType="touchUpInside" id="UNM-GY-eN5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
