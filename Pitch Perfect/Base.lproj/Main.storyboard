@@ -37,7 +37,7 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 <inset key="titleEdgeInsets" minX="-99" minY="0.0" maxX="0.0" maxY="-112"/>
-                                <state key="normal" title="Tap to record" image="Image">
+                                <state key="normal" image="Image">
                                     <color key="titleColor" red="0.10196078431372549" green="0.2196078431372549" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <variation key="widthClass=compact">
@@ -47,6 +47,12 @@
                                     <action selector="recordStart:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gTg-MJ-CeA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBD-Or-4pD">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.2196078431372549" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.16862745583057404" green="0.72549021244049072" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
@@ -57,21 +63,26 @@
                             <constraint firstAttribute="centerY" secondItem="c2T-vx-doL" secondAttribute="centerY" constant="-73.5" id="L2M-6u-nYC"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Rh1-v5-lvA" secondAttribute="bottom" constant="60" id="R4i-Cs-xbX"/>
                             <constraint firstAttribute="centerX" secondItem="c2T-vx-doL" secondAttribute="centerX" id="dd2-CE-snT"/>
+                            <constraint firstItem="CBD-Or-4pD" firstAttribute="top" secondItem="sWQ-P5-4Bf" secondAttribute="bottom" constant="13" id="vec-Qy-833"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CBD-Or-4pD" secondAttribute="trailing" constant="133" id="xrS-XJ-fBY"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="c2T-vx-doL"/>
                                 <exclude reference="Rh1-v5-lvA"/>
                                 <exclude reference="sWQ-P5-4Bf"/>
+                                <exclude reference="CBD-Or-4pD"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="R4i-Cs-xbX"/>
+                                <exclude reference="4rK-Nk-Zag"/>
+                                <exclude reference="Ejf-52-SCe"/>
+                                <exclude reference="vec-Qy-833"/>
+                                <exclude reference="xrS-XJ-fBY"/>
                                 <exclude reference="5zT-vk-atz"/>
                                 <exclude reference="L2M-6u-nYC"/>
                                 <exclude reference="dd2-CE-snT"/>
                                 <exclude reference="Hoz-Zf-cnj"/>
-                                <exclude reference="4rK-Nk-Zag"/>
-                                <exclude reference="Ejf-52-SCe"/>
+                                <exclude reference="R4i-Cs-xbX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,15 +90,18 @@
                                 <include reference="c2T-vx-doL"/>
                                 <include reference="Rh1-v5-lvA"/>
                                 <include reference="sWQ-P5-4Bf"/>
+                                <include reference="CBD-Or-4pD"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="R4i-Cs-xbX"/>
+                                <include reference="4rK-Nk-Zag"/>
+                                <include reference="Ejf-52-SCe"/>
+                                <include reference="vec-Qy-833"/>
+                                <include reference="xrS-XJ-fBY"/>
                                 <include reference="5zT-vk-atz"/>
                                 <include reference="L2M-6u-nYC"/>
                                 <include reference="dd2-CE-snT"/>
                                 <include reference="Hoz-Zf-cnj"/>
-                                <include reference="4rK-Nk-Zag"/>
-                                <include reference="Ejf-52-SCe"/>
+                                <include reference="R4i-Cs-xbX"/>
                             </mask>
                         </variation>
                     </view>
@@ -96,6 +110,7 @@
                         <outlet property="recordButton" destination="sWQ-P5-4Bf" id="Yey-cf-LZl"/>
                         <outlet property="recordLabel" destination="c2T-vx-doL" id="6fA-NZ-IOR"/>
                         <outlet property="stopButton" destination="Rh1-v5-lvA" id="QBy-CZ-jvU"/>
+                        <outlet property="tapLabel" destination="CBD-Or-4pD" id="1LO-xy-ce9"/>
                         <segue destination="yzc-ub-w68" kind="show" identifier="stopRecording" id="TBI-iv-9TQ"/>
                     </connections>
                 </viewController>

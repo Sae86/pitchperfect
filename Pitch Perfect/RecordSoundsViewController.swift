@@ -27,14 +27,17 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     @IBOutlet weak var recordLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var stopButton: UIButton!
+    @IBOutlet weak var tapLabel: UILabel!
     
     override func viewWillAppear(animated: Bool) {
         stopButton.hidden = true
         recordButton.enabled = true
+        tapLabel.hidden = false
     }
     
     @IBAction func recordStart(sender: UIButton) {
         recordLabel.hidden = false
+        tapLabel.hidden = true
         recordButton.enabled = false
         stopButton.hidden = false
         let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as! String
