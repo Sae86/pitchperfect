@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021EF56D1BA67E5F00B6E643 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = movie_quote.mp3; path = ../../../Downloads/movie_quote.mp3; sourceTree = "<group>"; };
 		021EF5711BA67EED00B6E643 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		02452CC81B8148090045EB5D /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02452CCC1B8148090045EB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,7 +96,6 @@
 		02452CCB1B8148090045EB5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				021EF56D1BA67E5F00B6E643 /* movie_quote.mp3 */,
 				02452CCC1B8148090045EB5D /* Info.plist */,
 			);
 			name = "Supporting Files";
