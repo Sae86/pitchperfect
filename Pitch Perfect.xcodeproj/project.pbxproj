@@ -15,6 +15,7 @@
 		02452CD51B8148090045EB5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02452CD41B8148090045EB5D /* Images.xcassets */; };
 		02452CD81B8148090045EB5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02452CD61B8148090045EB5D /* LaunchScreen.xib */; };
 		02452CE41B8148090045EB5D /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02452CE31B8148090045EB5D /* Pitch_PerfectTests.swift */; };
+		02DF0B7B1BA7B12A0071BAA3 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF0B7A1BA7B12A0071BAA3 /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		02452CDD1B8148090045EB5D /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02452CE21B8148090045EB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02452CE31B8148090045EB5D /* Pitch_PerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectTests.swift; sourceTree = "<group>"; };
+		02DF0B7A1BA7B12A0071BAA3 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				02452CCD1B8148090045EB5D /* AppDelegate.swift */,
 				02452CCF1B8148090045EB5D /* RecordSoundsViewController.swift */,
 				021EF5711BA67EED00B6E643 /* PlaySoundsViewController.swift */,
+				02DF0B7A1BA7B12A0071BAA3 /* RecordedAudio.swift */,
 				02452CD11B8148090045EB5D /* Main.storyboard */,
 				02452CD41B8148090045EB5D /* Images.xcassets */,
 				02452CD61B8148090045EB5D /* LaunchScreen.xib */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02DF0B7B1BA7B12A0071BAA3 /* RecordedAudio.swift in Sources */,
 				02452CD01B8148090045EB5D /* RecordSoundsViewController.swift in Sources */,
 				021EF5721BA67EED00B6E643 /* PlaySoundsViewController.swift in Sources */,
 				02452CCE1B8148090045EB5D /* AppDelegate.swift in Sources */,
