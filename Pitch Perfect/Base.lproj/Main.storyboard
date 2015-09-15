@@ -74,15 +74,15 @@
                                 <exclude reference="CBD-Or-4pD"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="4rK-Nk-Zag"/>
-                                <exclude reference="Ejf-52-SCe"/>
+                                <exclude reference="R4i-Cs-xbX"/>
                                 <exclude reference="vec-Qy-833"/>
                                 <exclude reference="xrS-XJ-fBY"/>
                                 <exclude reference="5zT-vk-atz"/>
                                 <exclude reference="L2M-6u-nYC"/>
                                 <exclude reference="dd2-CE-snT"/>
                                 <exclude reference="Hoz-Zf-cnj"/>
-                                <exclude reference="R4i-Cs-xbX"/>
+                                <exclude reference="4rK-Nk-Zag"/>
+                                <exclude reference="Ejf-52-SCe"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -93,15 +93,15 @@
                                 <include reference="CBD-Or-4pD"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="4rK-Nk-Zag"/>
-                                <include reference="Ejf-52-SCe"/>
+                                <include reference="R4i-Cs-xbX"/>
                                 <include reference="vec-Qy-833"/>
                                 <include reference="xrS-XJ-fBY"/>
                                 <include reference="5zT-vk-atz"/>
                                 <include reference="L2M-6u-nYC"/>
                                 <include reference="dd2-CE-snT"/>
                                 <include reference="Hoz-Zf-cnj"/>
-                                <include reference="R4i-Cs-xbX"/>
+                                <include reference="4rK-Nk-Zag"/>
+                                <include reference="Ejf-52-SCe"/>
                             </mask>
                         </variation>
                     </view>

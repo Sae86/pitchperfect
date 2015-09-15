@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021EF56E1BA67E5F00B6E643 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 021EF56D1BA67E5F00B6E643 /* movie_quote.mp3 */; };
 		021EF5721BA67EED00B6E643 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021EF5711BA67EED00B6E643 /* PlaySoundsViewController.swift */; };
 		02452CCE1B8148090045EB5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02452CCD1B8148090045EB5D /* AppDelegate.swift */; };
 		02452CD01B8148090045EB5D /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02452CCF1B8148090045EB5D /* RecordSoundsViewController.swift */; };
@@ -203,7 +202,6 @@
 			files = (
 				02452CD31B8148090045EB5D /* Main.storyboard in Resources */,
 				02452CD81B8148090045EB5D /* LaunchScreen.xib in Resources */,
-				021EF56E1BA67E5F00B6E643 /* movie_quote.mp3 in Resources */,
 				02452CD51B8148090045EB5D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
