@@ -59,7 +59,9 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
             recordedAudio = RecordedAudio(filePathUrl: recorder.url, title: recorder.url.lastPathComponent!)
             performSegueWithIdentifier("stopRecording", sender: recordedAudio)
         } else {
-            println("Recording was not successful")
+            let alertController = UIAlertController(title: "Pitch Perfect", message: "Recording was not successful", preferredStyle: UIAlertControllerStyle.Alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+            presentViewController(alertController, animated: true, completion: nil)
             recordButton.enabled = true
             stopButton.hidden = true
         }
