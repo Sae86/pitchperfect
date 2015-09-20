@@ -65,6 +65,11 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         }
     }
 
+    // From Review: A pause function
+    // What about the pause function?
+    // Hint: use audioRecorder.pause()
+    // TODO: Draw pause Icon
+    
     @IBAction func recordStop(sender: UIButton) {
         recordLabel.text = "Tap to record"
         audioRecorder.stop()
