@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7EH-L0-rTi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7EH-L0-rTi">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -20,12 +21,14 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Tap to record&quot;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2T-vx-doL">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.1019607843" green="0.2156862745" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh1-v5-lvA">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" image="Image-1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -35,6 +38,7 @@
                             </button>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWQ-P5-4Bf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 <inset key="titleEdgeInsets" minX="-99" minY="0.0" maxX="0.0" maxY="-112"/>
                                 <state key="normal" image="Image">
@@ -48,6 +52,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.16862745583057404" green="0.72549021244049072" blue="0.94117653369903564" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="sWQ-P5-4Bf" secondAttribute="centerY" id="4rK-Nk-Zag"/>
@@ -117,6 +122,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwF-ZD-wes">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" image="Image-2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -126,6 +132,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XeZ-OA-gpY">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" image="Image-3">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -138,6 +145,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SR9-hA-VMb">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" image="Image-1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -150,6 +158,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6c-vX-l0g">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" image="Image-4">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -162,6 +171,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7e-Qh-1WR">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
                                 <state key="normal" image="Image-5">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -173,6 +183,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" red="0.14117647058823529" green="0.59607843137254901" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="g7e-Qh-1WR" secondAttribute="trailing" constant="50" id="Ceo-Um-gc8"/>
@@ -195,16 +206,16 @@
                                 <exclude reference="g7e-Qh-1WR"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="xvJ-GT-8Rb"/>
                                 <exclude reference="Jpu-sQ-XWl"/>
                                 <exclude reference="uvx-DO-ygP"/>
-                                <exclude reference="QG0-AE-Y0U"/>
-                                <exclude reference="Uhk-kD-ypw"/>
+                                <exclude reference="s4W-fV-RMg"/>
                                 <exclude reference="w6c-Jl-I9B"/>
                                 <exclude reference="xPs-d2-xEN"/>
+                                <exclude reference="QG0-AE-Y0U"/>
+                                <exclude reference="Uhk-kD-ypw"/>
                                 <exclude reference="Ceo-Um-gc8"/>
                                 <exclude reference="HDz-c6-Hnw"/>
-                                <exclude reference="s4W-fV-RMg"/>
-                                <exclude reference="xvJ-GT-8Rb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -216,16 +227,16 @@
                                 <include reference="g7e-Qh-1WR"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="xvJ-GT-8Rb"/>
                                 <include reference="Jpu-sQ-XWl"/>
                                 <include reference="uvx-DO-ygP"/>
-                                <include reference="QG0-AE-Y0U"/>
-                                <include reference="Uhk-kD-ypw"/>
+                                <include reference="s4W-fV-RMg"/>
                                 <include reference="w6c-Jl-I9B"/>
                                 <include reference="xPs-d2-xEN"/>
+                                <include reference="QG0-AE-Y0U"/>
+                                <include reference="Uhk-kD-ypw"/>
                                 <include reference="Ceo-Um-gc8"/>
                                 <include reference="HDz-c6-Hnw"/>
-                                <include reference="s4W-fV-RMg"/>
-                                <include reference="xvJ-GT-8Rb"/>
                             </mask>
                         </variation>
                     </view>
@@ -242,6 +253,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MJQ-BQ-AYR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
